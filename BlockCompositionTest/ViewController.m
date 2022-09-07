@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 @interface ViewController ()
 
@@ -13,9 +15,14 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    float_block_iterator(10)(retain_block(contain_block(^ const float (const float f) {
+        return f;
+    })));
 }
 
 
